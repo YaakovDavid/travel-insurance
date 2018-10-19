@@ -12,14 +12,14 @@ body{
 
 #heading{
   position: relative;
-  bottom: 50px;
+  bottom: 60px;
   left: 100px;
   color: white;
-  font-size: 35px;
-  font-weight: 900;
+  font-size: 45px;
+  font-weight: 1100;
   font-family: 'Roboto', sans-serif;
+  -webkit-text-stroke: 1px rgb(178, 224, 11);
 }
-
 
 
 ul{
@@ -53,7 +53,6 @@ a{
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
-
   position: relative;
   overflow: hidden;
 }
@@ -93,18 +92,10 @@ a{
   transform: translateY(0);
 }
 
-
-
-
-
 .pod-card{
   width: 30%;
   float: left;
   margin: 0 1% 2rem 1%;
-  /* -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25);
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.25);
-  border-radius: .35rem;
-  background-color: rgb(68, 190, 190); */
   border: 1px solid rgb(178, 224, 11);
   border-radius: 15px;
   font-size: 18px;
